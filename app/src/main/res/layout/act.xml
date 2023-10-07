@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Titre 1 -->
+        <TextView
+            android:id="@+id/titre1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comment l'architecture impacte l'effet de serre?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Texte 1 -->
+        <TextView
+            android:id="@+id/texte1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Une architecture respectueuse de l'environnement permet de minimiser l'impact de la construction sur l'environnement. Cela peut inclure l'utilisation de matériaux durables, la réduction des déchets de construction, l'optimisation de l'efficacité énergétique et la minimisation des émissions de gaz à effet de serre."
+            android:layout_marginTop="8dp"/>
+
+        <!-- Titre 2 -->
+        <TextView
+            android:id="@+id/titre2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Les matériaux biosourcés"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Texte 2 -->
+        <TextView
+            android:id="@+id/texte2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Dans le bâtiment, les matériaux biosourcés les plus utilisés sont le bois, la paille, la laine de chanvre, la ouate de cellulose issue du papier, le liège, le lin et la laine de mouton. Peuvent également être utilisés la plume de canard ou le textile recyclé. Ces derniers sont des matériaux notamment utilisés dans l'isolation pour leur performance thermique et leur faible empreinte carbone."
+            android:layout_marginTop="8dp"/>
+
+        <!-- Titre 3 -->
+        <TextView
+            android:id="@+id/titre3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="La couleur d'actualité pour une architecture moderne"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Texte 3 -->
+        <TextView
+            android:id="@+id/texte3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Dans le bâtiment, les matériaux biosourcés les plus utilisés sont le bois, la paille, la laine de chanvre, la ouate de cellulose issue du papier, le liège, le lin et la laine de mouton. Peuvent également être utilisés la plume de canard ou le textile recyclé. Ces derniers sont des matériaux notamment utilisés dans l'isolation pour leur performance thermique et leur faible empreinte carbone."
+            android:layout_marginTop="8dp"/>
+
+        <!-- Image 1 -->
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deco2"
+        android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/texte_intermediaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Les couleurs neutres tendances 2023 sont : Beige : le beige sable et le beige rosé sont les nouveaux must-have de cette année."
+            android:layout_marginTop="8dp"
+            android:textSize="17sp"/>
+
+        <!-- Image 2 -->
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/deco1" />
+
+    </LinearLayout>
+</ScrollView>

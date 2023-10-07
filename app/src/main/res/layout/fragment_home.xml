@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris">
+
+
+    <TextView
+        android:id="@+id/textViewFragment1"
+        android:layout_width="305dp"
+        android:layout_height="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="107dp"
+        android:text="Faites vous accompagner par des professionnels du domaine !"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttonBleu"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFragment1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:background="@drawable/coul"
+        android:text="Conseils pratiques"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/buttonRouge"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonBleu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/coul"
+        android:text="Actualités"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

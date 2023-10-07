@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/gris">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!-- Titre 1 -->
+    <TextView
+        android:id="@+id/titre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Établissez un budget précis"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Texte 1 -->
+    <TextView
+        android:id="@+id/texte1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avant de commencer tout projet de rénovation, il est essentiel d'établir un budget précis. Prenez en compte tous les coûts potentiels, tels que les matériaux, la main d'œuvre, les permis et les frais administratifs. Un budget clair et réaliste vous aidera à éviter les dépenses excessives et à gérer efficacement les fonds alloués à votre projet."
+        android:layout_below="@id/titre1"
+        android:textSize="17sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Titre 2 -->
+    <TextView
+        android:id="@+id/titre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Engagez des professionnels qualifiés"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/texte1"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Texte 2 -->
+    <TextView
+        android:id="@+id/texte2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pour garantir la réussite de votre rénovation immobilière au Maroc, il est recommandé d'engager des professionnels qualifiés. Des architectes, des ingénieurs et des entrepreneurs expérimentés peuvent vous apporter leur expertise et vous guider tout au long du processus de rénovation. Recherchez des références et vérifiez les qualifications de chaque professionnel avant de prendre une décision."
+        android:layout_below="@id/titre2"
+        android:textSize="17sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Titre 3 -->
+    <TextView
+        android:id="@+id/titre3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Respecter les normes et les réglementations"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/texte2"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Texte 3 -->
+    <TextView
+        android:id="@+id/texte3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avant d'entreprendre des travaux de rénovation, assurez-vous de respecter les normes et les règlementations en vigueur au Maroc. Obtenez les permis nécessaires et consultez les autorités locales pour vous assurer que votre projet est conforme aux lois en matière de construction et de rénovation."
+        android:layout_below="@id/titre3"
+        android:textSize="17sp"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
+    </ScrollView>
